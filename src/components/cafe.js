@@ -1,22 +1,20 @@
 import React from 'react';
 
-
-
-import crepa from '../src/img/crepa.jpg'
-import logo from '../src/img/logo.jpg'
-import waffles from '../src/img/waffles.png'
-import crepasalada from '../src/img/crepasalada.jpg'
-import postres from '../src/img/postres.png'
-import bebidasFrias from '../src/img/bebidasFrias.jpg'
-import bebidasCalientes from '../src/img/bebidasCalientes.jpg'
+import crepa from '../img/crepa.jpg'
+import logo from '../img/logo.jpg'
+import waffles from '../img/waffles.png'
+import crepasalada from '../img/crepasalada.jpg'
+import postres from '../img/postres.png'
+import bebidasFrias from '../img/bebidasFrias.jpg'
+import bebidasCalientes from '../img/bebidasCalientes.jpg'
 
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '../App.css';
 
 
-function App() {
+export const MenuCafe = ()=> {
   return (
     <div className="App">
       <header className="App-header">
@@ -346,11 +344,7 @@ function App() {
                 </div>
                 </div>
         </section>
-
-        
       </header>
     </div>
   );
 }
-
-export default App;

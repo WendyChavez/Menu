@@ -1,19 +1,18 @@
 import React from 'react';
 //import logo from './logo.svg';
+import logo from '../img/logob.jpg'
+import sencillo from '../img/sencillo.jpg'
+import especiales from '../img/especiales.jpg'
+import champis from '../img/champis.jpg'
+import combos from '../img/combos.jpg'
+import promociones from '../img/promocion.png'
 
-
-import logo from '../src/img/logob.jpg'
-import sencillo from '../src/img/sencillo.jpg'
-import especiales from '../src/img/especiales.jpg'
-import champis from '../src/img/champis.jpg'
-import combos from '../src/img/combos.jpg'
-import promociones from '../src/img/promocion.png'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '../App.css';
 
-function App() {
+export const MenuBurritos = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,8 +22,6 @@ function App() {
         <h1 className="text-center"><span className="texto-naranja-degradado font-weight-bold">Menu</span></h1>
                 <p className="text-center">Burritos, combos, promociones y mucho más...!!</p>
                 
-                
-      
                 <div className="card border-dark shadow">
                     <img src={sencillo} className="card-img" alt="Burritos sencillos" loading="lazy"/>
                     <div className="card-img-overlay m-0 p-0">
@@ -185,5 +182,4 @@ function App() {
   );
 }
 
-export default App;
 
