@@ -1,24 +1,24 @@
 import React from 'react';
 
-import 'bootstrap';
+/*import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import './App.css';
+import './App.css';*/
 
 
 
 
-import {MenuCafe} from './components/cafe';
-import {MenuBurritos} from './components/burritos';
-
+//import {MenuCafe} from './components/cafe';
+//import {MenuBurritos} from './components/burritos';
+import {paginaconfirmacion} from './components/paginaconfirmacion';
 
 
 function App() {
   return (
 
-    <div className = "App">
-          {MenuCafe()}
-        {MenuBurritos()}
+    <div >
+     
+        {paginaconfirmacion()}
       
 
     </div>

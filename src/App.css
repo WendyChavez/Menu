@@ -24,20 +24,25 @@
   --verde-ndukunde-claro:   #37F21B;
   --verde-ndukunde-mediano: #36BF21;
   --verde-ndukunde-fuerte:  #36732D;
+  --verde:#1abc9c;
   --azul-facebook: #3B5998;
   --azul-twitter: #00ACEE;
   --azul-instagram: #4C5FD7;
+  --azul:  #474e5d;
   --naranja-instagram: #F46F30;
   --negro-alfa-25: rgba(20, 20, 20, 0.25);
   --negro-alfa-50: rgba(0,0,0,.50);
   --negro-alfa-75: rgba(0,0,0,.75);
 }
 
-body {
+html, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  background: var(--gris-1);
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:100%;
 }
 
 .bg-negro { background: var(--negro) }
@@ -61,6 +66,8 @@ body {
 .bg-negro-alfa-25 { background: var(--negro-alfa-25) }
 .bg-negro-alfa-50 { background: var(--negro-alfa-50) }
 .bg-negro-alfa-75 { background: var(--negro-alfa-75) }
+.bg-verde { background: var(--verde) }
+.texto-azul-claro{ color: var(--azul-claro) }
 
 .texto-gris-1 { color: var(--gris-1) }
 .texto-gris-2 { color: var(--gris-2) }
@@ -416,4 +423,49 @@ border-radius: 3px;
 
 .WgD-container img {
 max-height: 200px;
+}
+.letra{font-family : "Courier New", Courier, monospace; font-size :100px ;}
+.registro{font-family: "Courier New", Courier, monospace;font-size:45px;color: #000000;}
+.registro2{font-family: Tahoma,Geneva,sans-serif;font-size:20px;color: #FFFFFF;}
+
+.myDiv{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23a6d5);
+  background-size: 400%, 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.other {
+  height: 100% auto;
+  width: 100% auto;
+}
+
+.centrado {
+  text-align: center;
+  vertical-align:middle;
+  line-height:normal;
 }
