@@ -428,6 +428,7 @@ max-height: 200px;
 .letra{font-family: "Montserrat", sans-serif;font-size:30px;color: #000000;}
 
 
+
 .myDiv{
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23a6d5);
   background-size: 400%, 400%;
@@ -437,6 +438,10 @@ max-height: 200px;
 
 .fondo{
   background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));
+}
+.fondoerror{
+
+  background: linear-gradient(to right, rgb(228, 58, 21), rgb(230, 82, 69));
 }
 
 @-webkit-keyframes gradient {

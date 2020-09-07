@@ -10,16 +10,32 @@ import './App.css';*/
 
 //import {MenuCafe} from './components/cafe';
 //import {MenuBurritos} from './components/burritos';
-import {paginaconfirmacion} from './components/paginaconfirmacion';
+import {registroexitoso} from './components/registroexitoso';
+import {usuarioexistente} from './components/usuarioexistente';
+import {errorconfirmacion} from './components/errorconfirmacion';
+import {URLinvalida} from './components/URLinvalida';
+/*
 
+{registroexitoso()}
+
+
+ 
+  {errorconfirmacion()}
+
+  {URLinvalida()}
+*/
 
 function App() {
   return (
 
     <div >
-     
-        {paginaconfirmacion()}
-      
+ {usuarioexistente()}
+
+
+
+
+ 
+
 
     </div>
   );
