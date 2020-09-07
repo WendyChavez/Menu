@@ -36,7 +36,7 @@
 }
 
 html, body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat','sans-serif';
   font-size: 1rem;
   font-weight: 300;
   justify-content: center;
@@ -379,7 +379,7 @@ body.ab-is-detected {
 }
 
 #WgD {
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat','sans-serif';
 background: #f85032;
 background: -webkit-linear-gradient(to right, #f85032, #e73827);
 background: linear-gradient(to right, #f85032, #e73827);
@@ -424,15 +424,19 @@ border-radius: 3px;
 .WgD-container img {
 max-height: 200px;
 }
-.letra{font-family : "Courier New", Courier, monospace; font-size :100px ;}
-.registro{font-family: "Courier New", Courier, monospace;font-size:45px;color: #000000;}
-.registro2{font-family: Tahoma,Geneva,sans-serif;font-size:20px;color: #FFFFFF;}
+.registro{font-family: "Montserrat", 'sans-serif';font-size:45px;color: #000000;}
+.letra{font-family: "Montserrat", 'sans-serif';font-size:30px;color: #000000;}
+
 
 .myDiv{
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23a6d5);
   background-size: 400%, 400%;
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
+}
+
+.fondo{
+  background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));
 }
 
 @-webkit-keyframes gradient {
