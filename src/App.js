@@ -14,24 +14,20 @@ import {registroexitoso} from './components/registroexitoso';
 import {usuarioexistente} from './components/usuarioexistente';
 import {errorconfirmacion} from './components/errorconfirmacion';
 import {URLinvalida} from './components/URLinvalida';
-/*
 
-{registroexitoso()}
-
-
- 
-  {errorconfirmacion()}
-
-  {URLinvalida()}
-*/
 
 function App() {
   return (
 
     <div >
- {usuarioexistente()}
 
 
+{registroexitoso()}
+{usuarioexistente()}
+ 
+ 
+ {errorconfirmacion()}
+{URLinvalida()}
 
 
  

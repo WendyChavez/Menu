@@ -10,7 +10,7 @@ import '../App.css';
 export const usuarioexistente = () => {
     return (
         
-        <div class="other fondoerror">
+        <div >
             <br />
             <br />
             <br />

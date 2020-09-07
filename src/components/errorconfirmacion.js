@@ -9,7 +9,7 @@ import '../App.css';
 export const errorconfirmacion = () => {
     return (
         
-        <div class="other fondoerror">
+        <div >
             <br />
             <br />
             <br />
@@ -32,7 +32,7 @@ export const errorconfirmacion = () => {
                             </div>
                         </div>
                         <br />
-                        <br />
+                       
                       
                     </div>
                 </div>
