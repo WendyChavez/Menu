@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
 
-export const URLinvalida = () => {
+export const URLInvalida = () => {
     return (
 
         <div >

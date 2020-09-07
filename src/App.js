@@ -10,24 +10,34 @@ import './App.css';*/
 
 //import {MenuCafe} from './components/cafe';
 //import {MenuBurritos} from './components/burritos';
-import {registroexitoso} from './components/registroexitoso';
-import {usuarioexistente} from './components/usuarioexistente';
-import {errorconfirmacion} from './components/errorconfirmacion';
-import {URLinvalida} from './components/URLinvalida';
+import {RegistroExitoso} from './components/RegistroExitoso';
+import {UsuarioExistente} from './components/UsuarioExistente';
+import {ErrorConfirmacion} from './components/ErrorConfirmacion';
+import {URLInvalida} from './components/URLInvalida';
+import {ErrorRestablecerContraseña} from './components/ErrorRestrablecerContraseña';
+import {RestablecerContraseña} from './components/RestablecerContraseña';
+import {UsarioInexistente} from './components/UsuarioInexistente';
 
+
+/*
+{RegistroExitoso ()}
+{UsuarioExistente()}
+{ErrorConfirmacion()}
+{URLInvalida()}
+{ErrorRestablecerContraseña()}
+
+{RestablecerContraseña()}
+
+
+
+*/
 
 function App() {
   return (
 
     <div >
+{UsarioInexistente()}
 
-
-{registroexitoso()}
-{usuarioexistente()}
- 
- 
- {errorconfirmacion()}
-{URLinvalida()}
 
 
  

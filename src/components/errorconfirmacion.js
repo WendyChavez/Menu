@@ -6,7 +6,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
-export const errorconfirmacion = () => {
+export const ErrorConfirmacion = () => {
     return (
         
         <div >
